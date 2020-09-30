@@ -13,6 +13,14 @@
 		AB97265E2525197900E00D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB97265D2525197900E00D8C /* Assets.xcassets */; };
 		AB9726612525197900E00D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB97265F2525197900E00D8C /* LaunchScreen.storyboard */; };
 		AB9726642525197900E00D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9726632525197900E00D8C /* main.m */; };
+		AB97267825251AAD00E00D8C /* TJBCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = AB97267725251AAD00E00D8C /* TJBCityAirQuality.m */; };
+		AB97267C25251D8600E00D8C /* TJBWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = AB97267B25251D8600E00D8C /* TJBWeather.m */; };
+		AB97268025251D9F00E00D8C /* TJBPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = AB97267F25251D9F00E00D8C /* TJBPollution.m */; };
+		AB972686252526ED00E00D8C /* TJBCityAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB972685252526ED00E00D8C /* TJBCityAirQualityController.m */; };
+		AB97268D2525364C00E00D8C /* TJBCountriesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB97268C2525364C00E00D8C /* TJBCountriesListTableViewController.swift */; };
+		AB9726902525373F00E00D8C /* TJBStatesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB97268F2525373F00E00D8C /* TJBStatesListTableViewController.swift */; };
+		AB9726932525379900E00D8C /* TJBCityListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726922525379900E00D8C /* TJBCityListTableViewController.swift */; };
+		AB972696252537EA00E00D8C /* TJBDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB972695252537EA00E00D8C /* TJBDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,19 @@
 		AB9726602525197900E00D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB9726622525197900E00D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9726632525197900E00D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB97267625251AAD00E00D8C /* TJBCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJBCityAirQuality.h; sourceTree = "<group>"; };
+		AB97267725251AAD00E00D8C /* TJBCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJBCityAirQuality.m; sourceTree = "<group>"; };
+		AB97267A25251D8600E00D8C /* TJBWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJBWeather.h; sourceTree = "<group>"; };
+		AB97267B25251D8600E00D8C /* TJBWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJBWeather.m; sourceTree = "<group>"; };
+		AB97267E25251D9F00E00D8C /* TJBPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJBPollution.h; sourceTree = "<group>"; };
+		AB97267F25251D9F00E00D8C /* TJBPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJBPollution.m; sourceTree = "<group>"; };
+		AB972684252526ED00E00D8C /* TJBCityAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJBCityAirQualityController.h; sourceTree = "<group>"; };
+		AB972685252526ED00E00D8C /* TJBCityAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJBCityAirQualityController.m; sourceTree = "<group>"; };
+		AB97268B2525364B00E00D8C /* AirQualityOBJC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirQualityOBJC-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB97268C2525364C00E00D8C /* TJBCountriesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJBCountriesListTableViewController.swift; sourceTree = "<group>"; };
+		AB97268F2525373F00E00D8C /* TJBStatesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJBStatesListTableViewController.swift; sourceTree = "<group>"; };
+		AB9726922525379900E00D8C /* TJBCityListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJBCityListTableViewController.swift; sourceTree = "<group>"; };
+		AB972695252537EA00E00D8C /* TJBDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJBDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +79,10 @@
 		AB9726502525197100E00D8C /* AirQualityOBJC */ = {
 			isa = PBXGroup;
 			children = (
+				AB97267125251A3600E00D8C /* Models */,
+				AB97267025251A3100E00D8C /* Views */,
+				AB97266F25251A2B00E00D8C /* Controllers */,
 				AB97266B2525198C00E00D8C /* Resources */,
-				AB97265A2525197100E00D8C /* Main.storyboard */,
 			);
 			path = AirQualityOBJC;
 			sourceTree = "<group>";
@@ -77,6 +100,65 @@
 				AB9726632525197900E00D8C /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB97266F25251A2B00E00D8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB97267325251A4100E00D8C /* ModelControllers */,
+				AB97267225251A3B00E00D8C /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB97267025251A3100E00D8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB97267425251A5600E00D8C /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB97267125251A3600E00D8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB97267625251AAD00E00D8C /* TJBCityAirQuality.h */,
+				AB97267725251AAD00E00D8C /* TJBCityAirQuality.m */,
+				AB97267A25251D8600E00D8C /* TJBWeather.h */,
+				AB97267B25251D8600E00D8C /* TJBWeather.m */,
+				AB97267E25251D9F00E00D8C /* TJBPollution.h */,
+				AB97267F25251D9F00E00D8C /* TJBPollution.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB97267225251A3B00E00D8C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB97268C2525364C00E00D8C /* TJBCountriesListTableViewController.swift */,
+				AB97268B2525364B00E00D8C /* AirQualityOBJC-Bridging-Header.h */,
+				AB97268F2525373F00E00D8C /* TJBStatesListTableViewController.swift */,
+				AB9726922525379900E00D8C /* TJBCityListTableViewController.swift */,
+				AB972695252537EA00E00D8C /* TJBDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB97267325251A4100E00D8C /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB972684252526ED00E00D8C /* TJBCityAirQualityController.h */,
+				AB972685252526ED00E00D8C /* TJBCityAirQualityController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		AB97267425251A5600E00D8C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AB97265A2525197100E00D8C /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +192,7 @@
 				TargetAttributes = {
 					AB97264D2525197000E00D8C = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -149,9 +232,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB97267825251AAD00E00D8C /* TJBCityAirQuality.m in Sources */,
+				AB9726902525373F00E00D8C /* TJBStatesListTableViewController.swift in Sources */,
+				AB97268025251D9F00E00D8C /* TJBPollution.m in Sources */,
+				AB972686252526ED00E00D8C /* TJBCityAirQualityController.m in Sources */,
+				AB97268D2525364C00E00D8C /* TJBCountriesListTableViewController.swift in Sources */,
+				AB9726932525379900E00D8C /* TJBCityListTableViewController.swift in Sources */,
+				AB972696252537EA00E00D8C /* TJBDetailViewController.swift in Sources */,
 				AB9726532525197100E00D8C /* AppDelegate.m in Sources */,
 				AB9726642525197900E00D8C /* main.m in Sources */,
 				AB9726562525197100E00D8C /* SceneDelegate.m in Sources */,
+				AB97267C25251D8600E00D8C /* TJBWeather.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB59AGWRUY;
 				INFOPLIST_FILE = AirQualityOBJC/Resources/Info.plist;
@@ -303,6 +395,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorBursach.AirQualityOBJC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AirQualityOBJC/Controllers/ViewControllers/AirQualityOBJC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB59AGWRUY;
 				INFOPLIST_FILE = AirQualityOBJC/Resources/Info.plist;
@@ -321,6 +417,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorBursach.AirQualityOBJC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AirQualityOBJC/Controllers/ViewControllers/AirQualityOBJC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
